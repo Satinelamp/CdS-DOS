@@ -1,0 +1,20 @@
+ALGO = Fast
+EDIFF = 1E-06
+ENCUT = 520
+
+
+ISMEAR = -5
+ISPIN = 2
+LASPH = True
+LMAXMIX = 4
+
+LREAL = Auto
+LWAVE = False
+MAGMOM = 4*0.6
+NELM = 100
+
+PREC = Accurate
+SIGMA = 0.05
+#DOS
+LORBIT =  11           (PAW radii for projected DOS)
+NEDOS  =  2001         (DOSCAR points)
